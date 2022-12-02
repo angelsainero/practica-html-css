@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angel</title>
-    <figure>
-        <img src="" alt="Foto Angel">
-        <figcaption>Fig.1 - Angel</figcaption>
-    </figure>
+    
 </head>
 <body>
     <header>
+        <img src="images/yo.jpg" alt="Foto Angel" width="250px">
         <h1>Angel Sainero Villar</h1>
         <nav>
             <ul>
@@ -28,7 +26,9 @@
             <header>
                 <h1>Formación</h1>
             </header>
-                <p>Carrousell</p>
+            <img src="images/keepcoding-0.png" alt="Foto Angel" width="300px">
+            <img src="images/keepcoding-fs.png" alt="Foto Angel" width="300px">
+            <img src="images/udemy.jpg" alt="Foto Angel" width="300px">
         </section>
         <section>
             <header>
@@ -52,20 +52,20 @@
             <form action="registro-completado.html" method="post">
                 <div>        
                     <label for="nombre">Nombre</label>
-                    <input name="nombre" id="nombre" type="text" placeholder="Nombre">
+                    <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
                     
                 </div>
                 <div>
                     <label for="apellido">Apellido</label>
-                    <input name="apellido" id="apellido" type="text" placeholder="Apellido">
+                    <input name="apellido" id="apellido" type="text" placeholder="Apellido" required>
                 </div>
                 <div>
                     <label for="mail">Email</label>
-                    <input name="mail" id="mail" type="email" placeholder="Email">
+                    <input name="mail" id="mail" type="email" placeholder="Email" required>
                 </div>
                 <div>
                     <label for="pass">Teléfono</label>
-                    <input name="telefono" id="telefono" type="tel" placeholder="Teléfono">
+                    <input name="telefono" id="telefono" type="tel" placeholder="Teléfono" required>
                 </div>
                 <div>
                     <fieldset>
@@ -88,7 +88,7 @@
                 </div>
                 <div>
                     <label for="gittag"></label>
-                    <input name="gittag" id="gittag" type="text" placeholder="Github tag">
+                    <input name="gittag" id="gittag" type="text" placeholder="Github tag" pattern="@([A-Za-z0-9_]{1,15})">
                 </div>
                 <button>registrar</button>
                 
@@ -96,10 +96,11 @@
 
     </main>
     <footer>
-        <ul>
-            <li><a href="" >Linkedin</a></li>
-                <li><a href="" >Github</a></li>
-        </ul>
+        <div>
+            <a href="https://es.linkedin.com/in/angelsainero"><img src="images/icono-linkedin.png" alt="icono-linkedin" width="50px"></a>
+            <a href="https://github.com/angelsainero"><img src="images/icono-github.png" alt="icono-github" width="50px"></a>
+        </div>
+        
     </footer>
     
 </body>
