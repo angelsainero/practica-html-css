@@ -1,0 +1,36 @@
+:root {
+    --dark-color: #29434e;
+    --normal-color: #546e7a;
+    --light-color: #819ca9;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.navbar h1{
+    font-size: 30px;
+}
+
+.navbar .list .list-item a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px; 
+}
+
+.navbar .list {
+    display: flex;
+    
+}
+
+/* queda hacer que desaparezca el @media, visto en clse 5 (1:34:42)
+
+despues hacer la hamburguesa https://www.espai.es/blog/2020/04/como-hacer-un-menu-hamburguesa-solo-con-html-y-css/
+
+*/
