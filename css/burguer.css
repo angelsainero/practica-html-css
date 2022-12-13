@@ -1,0 +1,64 @@
+input{
+    display: none;
+}
+
+.ham {
+    display: none;
+}
+
+@media (max-width:545px) {
+
+.list{
+  display: none;
+}
+
+input:checked  ~ .list{
+  display:block;
+}
+
+input {
+  display: none;
+}
+
+.ham {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  margin-right: 15px;
+}
+
+/* Estilo del boton cuando el menú está expandido*/
+input:checked ~ .ham {
+  background: lightgrey; 
+}
+
+.list{
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+
+}
+
+
+.list-item {
+  display: block;
+  background: lightgrey;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+.list:hover {
+  filter: brightness(110%);
+}
+
+}
