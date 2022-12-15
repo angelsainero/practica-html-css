@@ -2,6 +2,7 @@
     --dark-color: #29434e;
     --normal-color: #546e7a;
     --light-color: #819ca9;
+    font-family: 'Montserrat' ;
 }
 
 
@@ -14,11 +15,13 @@
     margin: 10px 0;
     padding: 40px 20px;
     color: #fff;
+   
 }
 
 .navbar h1 {
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
+    
 }
 
 .navbar a {
@@ -27,23 +30,34 @@
 
 
 
+header img {
+         
+    max-width: 40%;
+    height: auto;
+    border-radius:180px;
+    border:10px solid var(--normal-color);
+    margin: 20px auto;
+    
+}
+
 @media (min-width: 546px) {
     .navbar h1 {
         font-size: 30px;
     }
+
 
     .navbar .list .list-item a {
         display: flex;
         text-decoration: none;
         color: #fff;
         margin-left: 15px; 
-
     }
 
     .navbar .list {
-            display: flex;         
+            display: flex;        
         
     }
+        
 }
 
 

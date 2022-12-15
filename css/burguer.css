@@ -54,6 +54,8 @@ input:checked ~ .ham {
   padding: 10px;
   list-style: none;
   border-bottom: 1px solid grey;
+  position: relative;
+  
 }
 
 /*Estilo cuando el mouse pasa encima de cada link del menu*/
