@@ -1,0 +1,40 @@
+.carousel-links {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-dot {
+    background-color: #000;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 10px;
+    
+}
+
+.carousel-slides {
+    /* 30% de la altura de pantalla  (viewport) */
+    height: 50vh;
+    /* ahora lo ponemos en horizontal */
+    display:flex;
+    /* hacemos que no se aplasten */
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    max-width: 610px;
+    min-width: 300px;
+
+    
+}
+/* solo usa justo los div de dentro */
+.carousel-slides > div {
+    /* 100% del vh cada slide, esto provoca que se amontone uno debajo del otro */
+    height: 100%; 
+    width: 100%;
+    color: rgb(255,255,255);
+    background-color: rgb(68, 68, 68);
+    display:block
+  
+}

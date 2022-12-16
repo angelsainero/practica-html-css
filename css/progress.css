@@ -1,0 +1,74 @@
+.habilidades {
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+
+
+}
+
+.skill {
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.git {
+    background-color: blue;
+    animation: rellenagit 2s forwards;
+}
+
+.html {
+    background-color: blue;
+    animation: rellenahtml 2s forwards;
+}
+.css {
+    background-color: blue;
+    animation: rellenacss 2s forwards;
+}
+.javas {
+    background-color: blue;
+    animation: rellenajavas 2s forwards;
+}
+.python {
+    background-color: blue;
+    animation: rellenapython 2s forwards;
+}
+
+.flask {
+    background-color: blue;
+    animation: rellenaflask 2s forwards;
+}
+@keyframes rellenagit{
+    0%{width: 0;}
+    100%{width: 70%;}
+
+}
+
+@keyframes rellenahtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+
+}@keyframes rellenacss{
+    0%{width: 0;}
+    100%{width: 80%;}
+
+}@keyframes rellenajavas{
+    0%{width: 0;}
+    100%{width: 50%;}
+
+}@keyframes rellenapython{
+    0%{width: 0;}
+    100%{width: 90%;}
+
+}@keyframes rellenaflask{
+    0%{width: 0;}
+    100%{width: 80%;}
+
+}

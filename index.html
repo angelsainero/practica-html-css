@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/burguer.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/progress.css">
     <title>Angel</title>
     
 </head>
@@ -32,28 +34,53 @@
         </div>
     </header>
     <main>
-        <section>
-            <header>
-                <h1>Formación</h1>
-            </header>
-            <img src="images/keepcoding-0.png" alt="Foto Angel" width="100%">
-            <img src="images/keepcoding-fs.png" alt="Foto Angel" width="100%">
-            <img src="images/udemy.jpg" alt="Foto Angel" width="100%">
+        <header>
+            <h1>Formación</h1>
+        </header>
+        <section class="carousel-container">
+            <div class="carousel-slides">
+                <div id="slide1"><img src="images/keepcoding-0.png" alt="Foto Angel" width="100%"></div>
+                <div id="slide2"><img src="images/keepcoding-fs.png" alt="Foto Angel" width="100%"></div>
+                <div id="slide3"><img src="images/udemy.jpg" alt="Foto Angel" width="100%"></div>
+            </div>
+            <div class="carousel-links">
+                <a href="#slide1" class="carousel-dot"></a>
+                <a href="#slide2" class="carousel-dot"></a>
+                <a href="#slide3" class="carousel-dot"></a>
+            </div>   
         </section>
         <section>
             <header>
                 <h1>Skills</h1>
             </header>
-                <ul>
-                    <li>Git</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Python</li>
-                    <li>Flask</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                </ul>
+            
+            <div class="habilidades">
+                <p>GIT</p>
+                <div class="container">                    
+                    <div class="skill git">70%</div>
+                </div>
+                <p>HTML</p>
+                <div class="container">
+                    <div class="skill html">90%</div>
+                </div> 
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skill css">80%</div>
+                </div> 
+                <p>Javascript</p>
+                <div class="container">
+                    <div class="skill javas">50%</div>
+                </div> 
+                <p>Python</p>
+                <div class="container">
+                    <div class="skill python">90%</div>
+                </div> 
+                <p>Flask</p>
+                <div class="container">
+                    <div class="skill flask">80%</div>
+                </div> 
+            </div>
+
         </section>
         <section>
             <header>
