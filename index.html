@@ -86,48 +86,49 @@
             <header>
                 <h1>Contacto</h1>
             </header>
-            <form action="registro-completado.html" method="post">
+            <form class="form" action="registro-completado.html" method="post">
                 <div>        
                     <label for="nombre">Nombre</label>
-                    <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required class="campo">
                     
                 </div>
                 <div>
                     <label for="apellido">Apellido</label>
-                    <input name="apellido" id="apellido" type="text" placeholder="Apellido" required>
+                    <input name="apellido" id="apellido" type="text" placeholder="Apellido" required class="campo">
                 </div>
                 <div>
                     <label for="mail">Email</label>
-                    <input name="mail" id="mail" type="email" placeholder="Email" required>
+                    <input name="mail" id="mail" type="email" placeholder="Email" required class="campo">
                 </div>
                 <div>
                     <label for="pass">Teléfono</label>
-                    <input name="telefono" id="telefono" type="tel" placeholder="Teléfono" required>
+                    <input name="telefono" id="telefono" type="tel" placeholder="Teléfono" required class="campo">
                 </div>
                 <div>
                     <fieldset>
                         <legend>¿Como me conociste?</legend>
                         <div>
-                            <input type="radio" id="keep" name="como" value="keep">
+                            <input type="radio" id="keep" name="como" value="keep" class="radio">
                             <label for="keep">Keepconding</label>
                           </div>
                       
                           <div>
-                            <input type="radio" id="trabajo" name="como" value="trabajo">
+                            <input type="radio" id="trabajo" name="como" value="trabajo" class="radio">
                             <label for="trabajo">Trabajo</label>
                           </div>
                       
                           <div>
-                            <input type="radio" id="github" name="como" value="github">
+                            <input type="radio" id="github" name="como" value="github" class="radio">
                             <label for="github">En Github</label>
                           </div>
                     </fieldset>                    
                 </div>
                 <div>
                     <label for="gittag"></label>
-                    <input name="gittag" id="gittag" type="text" placeholder="Github tag" pattern="@([A-Za-z0-9_]{1,15})">
+                    <input name="gittag" id="gittag" type="text" placeholder="Github tag" pattern="@([A-Za-z0-9_]{1,15})" class="campo">
                 </div>
                 <button>registrar</button>
+            </form>
                 
         </section>
 

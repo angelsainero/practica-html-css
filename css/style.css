@@ -62,8 +62,34 @@ header img {
         
 }
 
+form { 
+    padding: 50px; 
+    background: var(--normal-color); 
+    width: 500px; 
+}
+form label { 
+    font-size: 14px;
+    color: #FFF; 
+    display: block; 
+}
+form .campo { 
+    margin-bottom: 20px;
+    width: 254px;
+    height: 30px;
+    border: 3px solid #84AA00;
+    background: #354d8d;
+    display: block;
+    
+}
 
-
+form .radio { 
+    margin-bottom: 20px;
+    width: 254px;
+    height: 10px;
+    border: 3px solid #84AA00;
+    background: #354d8d;
+    display: inline-block;
+}
 
 /* queda hacer que desaparezca el @media, visto en clse 5 (1:34:42)
 
