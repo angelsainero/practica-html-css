@@ -22,20 +22,26 @@
             <input type="checkbox" id="menu">
             <label class="ham" for="menu"> ☰ </label>
             <ul class="list">
-                <li class="list-item"><a href="" >Formación</a></li>
-                <li class="list-item"><a href="" >Skills</a></li>
-                <li class="list-item"><a href="" >Contacto</a></li>
+                <li class="list-item"><a href="#formacion" >Formación</a></li>
+                <li class="list-item"><a href="#habilidades" >Skills</a></li>
+                <li class="list-item"><a href="#contacto" >Contacto</a></li>
             </ul>
         </nav>
        
 
         <div class="imagen">
-            <img src="images/yo.jpg" alt="Foto Angel">
+            <picture>
+                <source 
+                media="(min-width: 768px)" 
+                srcset="images/yo.jpg"
+                >
+                <img src="images/yopeque.jpg" alt="Foto Angel">
+
         </div>
     </header>
     <main>
         <header>
-            <h1>Formación</h1>
+            <h1 id="formacion">Formación</h1>
         </header>
         <section class="carousel-container">
             <div class="carousel-slides">
@@ -51,7 +57,7 @@
         </section>
         <section>
             <header>
-                <h1>Skills</h1>
+                <h1 id="habilidades">Skills</h1>
             </header>
             
             <div class="habilidades">
@@ -84,7 +90,7 @@
         </section>
         <section>
             <header>
-                <h1>Contacto</h1>
+                <h1 id="contacto">Contacto</h1>
             </header>
             <form class="form" action="registro-completado.html" method="post">
                 <div>        

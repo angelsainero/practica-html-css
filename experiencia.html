@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Experiencia</title>
+    
+    <style>
+    body {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 1fr;
+        grid-template-rows:100px 300px 300px 300px;
+    }
+    nav {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        background-color: var(--dark-color);          
+        padding: 40px 20px;
+        color: #fff;
+    }
+
+    nav h1{    
+        font-size: 30px;
+    }
+   
+    
+    
+    header {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        
+
+    }
+    main {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        background-color: aqua;
+
+    }
+    footer {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        background-color: beige;
+
+    }
+    .exp{
+        display: flex;
+        margin:auto;
+        justify-content: space-between;
+        
+    }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <h1>Angel Sainero Villar</h1>
+    </nav>
+    <header>
+        <h1>Experiencia</h1>
+    </header>
+    <main class="exp">
+            <div class="noticia">
+            <img class="izquierda" src="https://www.forodeempresaspormadrid.es/wp-content/uploads/2018/08/logo_Acciona-1.jpg">
+          </div>  
+          <div class="noticia">
+            <img class="izquierda" src="https://www.forodeempresaspormadrid.es/wp-content/uploads/2018/08/logo_Acciona-1.jpg">
+          </div>       
+          <div class="noticia">
+            <img class="izquierda" src="https://www.forodeempresaspormadrid.es/wp-content/uploads/2018/08/logo_Acciona-1.jpg">
+          </div>  
+          <div class="noticia">
+            <img class="izquierda" src="https://www.forodeempresaspormadrid.es/wp-content/uploads/2018/08/logo_Acciona-1.jpg">
+          </div>  
+         
+        
+    </main>
+    <footer>
+        footer
+    </footer>      
+</body>
+</html>
