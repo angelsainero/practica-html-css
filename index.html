@@ -18,6 +18,7 @@
     <header>
         <nav class="navbar">
             <h1>Angel Sainero Villar</h1>
+            
             <input type="checkbox" id="menu">
             <label class="ham" for="menu"> ☰ </label>
             <ul class="list">
@@ -25,11 +26,10 @@
                 <li class="list-item"><a href="" >Skills</a></li>
                 <li class="list-item"><a href="" >Contacto</a></li>
             </ul>
-            
         </nav>
        
 
-        <div>
+        <div class="imagen">
             <img src="images/yo.jpg" alt="Foto Angel">
         </div>
     </header>
@@ -39,9 +39,9 @@
         </header>
         <section class="carousel-container">
             <div class="carousel-slides">
-                <div id="slide1"><img src="images/keepcoding-0.png" alt="Foto Angel" width="100%"></div>
-                <div id="slide2"><img src="images/keepcoding-fs.png" alt="Foto Angel" width="100%"></div>
-                <div id="slide3"><img src="images/udemy.jpg" alt="Foto Angel" width="100%"></div>
+                <img class="carousel-slide-img" id="slide1"src="images/keepcoding-0.png" alt="Foto Angel" >
+                <img class="carousel-slide-img" id="slide2" src="images/keepcoding-1.png" alt="Foto Angel" >
+                <img class="carousel-slide-img" id="slide3" src="images/keepcoding-2.png" alt="Foto Angel">
             </div>
             <div class="carousel-links">
                 <a href="#slide1" class="carousel-dot"></a>
@@ -105,22 +105,22 @@
                     <input name="telefono" id="telefono" type="tel" placeholder="Teléfono" required class="campo">
                 </div>
                 <div>
-                    <fieldset>
-                        <legend>¿Como me conociste?</legend>
-                        <div>
+                    <legend>¿Como me conociste?</legend>
+                    <fieldset class="formulario">
+                        <div class="radio-container">
                             <input type="radio" id="keep" name="como" value="keep" class="radio">
                             <label for="keep">Keepconding</label>
-                          </div>
+                        </div>
                       
-                          <div>
+                        <div class="radio-container">
                             <input type="radio" id="trabajo" name="como" value="trabajo" class="radio">
                             <label for="trabajo">Trabajo</label>
-                          </div>
+                        </div>
                       
-                          <div>
+                        <div class="radio-container">
                             <input type="radio" id="github" name="como" value="github" class="radio">
                             <label for="github">En Github</label>
-                          </div>
+                        </div>
                     </fieldset>                    
                 </div>
                 <div>

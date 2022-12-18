@@ -10,6 +10,13 @@ input{
 
 .list{
   display: none;
+  position: absolute;
+  top: 50px;
+  right: 69px;
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+  
 }
 
 input:checked  ~ .list{
@@ -37,13 +44,6 @@ input {
 /* Estilo del boton cuando el menú está expandido*/
 input:checked ~ .ham {
   background: lightgrey; 
-}
-
-.list{
-  margin-top:0;
-  padding: 0;
-  width: 200px;
-
 }
 
 

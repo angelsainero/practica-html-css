@@ -1,15 +1,18 @@
 .habilidades {
     
-    margin: auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-    max-width: 600px;
+    display: block;
+    
+    padding: 0px;    
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin:auto;
+    
 }
 
 .container {
     width: 100%;
     background-color: #ddd;
-
+    border-radius: 150px;
 
 }
 
@@ -21,30 +24,36 @@
 }
 
 .git {
-    background-color: blue;
+    background-color: var(--light-color);
     animation: rellenagit 2s forwards;
+    border-radius: 150px;
 }
 
 .html {
-    background-color: blue;
+    background-color: var(--light-color);
     animation: rellenahtml 2s forwards;
+    border-radius: 150px;
 }
 .css {
-    background-color: blue;
+    background-color: var(--light-color);
     animation: rellenacss 2s forwards;
+    border-radius: 150px;
 }
 .javas {
-    background-color: blue;
+    background-color: var(--light-color);
     animation: rellenajavas 2s forwards;
+    border-radius: 150px;
 }
 .python {
-    background-color: blue;
+    background-color: var(--light-color);
     animation: rellenapython 2s forwards;
+    border-radius: 150px;
 }
 
 .flask {
-    background-color: blue;
+    background-color: var(--light-color);
     animation: rellenaflask 2s forwards;
+    border-radius: 150px;
 }
 @keyframes rellenagit{
     0%{width: 0;}
