@@ -42,26 +42,6 @@ header img {
     
 }
 
-@media (min-width: 546px) {
-    .navbar h1 {
-        font-size: 30px;
-    }
-
-
-    .navbar .list .list-item a {
-        display: flex;
-        text-decoration: none;
-        color: #fff;
-        margin-left: 15px; 
-    }
-
-    .navbar .list {
-            display: flex;        
-        
-    }
-        
-}
-
 form { 
     padding: 50px; 
     background: var(--normal-color); 
